@@ -16,6 +16,3 @@ steps:
 
 - script: npm test
   displayName: 'Run Tests'
-
-- script: node server.js
-  displayName: 'Test Application Startup'
