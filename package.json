@@ -1,0 +1,10 @@
+{
+  "name": "hello-pawan",
+  "version": "1.0.0",
+  "description": "Simple Node.js application deployed using Azure DevOps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  }
+}
