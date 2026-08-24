@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+steps:
+
+- task: UseNode@1
+  displayName: 'Install Node.js'
+  inputs:
+    version: '20.x'
+
+- script: npm install
+  displayName: 'Install Dependencies'
+
+- script: npm test
+  displayName: 'Run Tests'
