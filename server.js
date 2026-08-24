@@ -1,6 +1,6 @@
 const http = require("http");
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 const server = http.createServer((req, res) => {
     const now = new Date();
@@ -64,7 +64,7 @@ const server = http.createServer((req, res) => {
 
     <div class="container">
 
-        <h1>Hello Pawan! 👋</h1>
+        <h1>Hello Pawan kumar! 👋</h1>
 
         <h2>Today is ${day}</h2>
 
